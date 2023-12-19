@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Markad_Portfolio/static/css/main.ab13068a.css",
-    "main.js": "/Markad_Portfolio/static/js/main.37f818dd.js",
+    "main.js": "/Markad_Portfolio/static/js/main.35b424b8.js",
     "static/media/about.png": "/Markad_Portfolio/static/media/about.0dcba71eb59792807f12.png",
     "static/media/avtar.png": "/Markad_Portfolio/static/media/avtar.cbef6cc84f37329b4c2f.png",
     "static/media/portfolio-img2.png": "/Markad_Portfolio/static/media/portfolio-img2.0623aa58789e02365ace.png",
@@ -12,10 +12,10 @@
     "static/media/services.png": "/Markad_Portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
     "index.html": "/Markad_Portfolio/index.html",
     "main.ab13068a.css.map": "/Markad_Portfolio/static/css/main.ab13068a.css.map",
-    "main.37f818dd.js.map": "/Markad_Portfolio/static/js/main.37f818dd.js.map"
+    "main.35b424b8.js.map": "/Markad_Portfolio/static/js/main.35b424b8.js.map"
   },
   "entrypoints": [
     "static/css/main.ab13068a.css",
-    "static/js/main.37f818dd.js"
+    "static/js/main.35b424b8.js"
   ]
 }
