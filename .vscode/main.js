@@ -1,12 +1,3 @@
-/// <reference path="c:/Users/visha/.vscode/extensions/nur.script-0.2.1/@types/api.global.d.ts" />
-/// <reference path="c:/Users/visha/.vscode/extensions/nur.script-0.2.1/@types/vscode.global.d.ts" />
-//  @ts-check
-//  API: https://code.visualstudio.com/api/references/vscode-api
-
-function activate(_context) {
-   window.showInformationMessage('Hello, World!');
-}
-
-function deactivate() {}
-
-module.exports = { activate, deactivate }
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b65f206658459809645a4e332ffc7ff9b6d5b0cc7759f8eab613f3f189aaefd
+size 433

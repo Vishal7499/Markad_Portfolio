@@ -1,33 +1,3 @@
-module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
-  theme: {
-    fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
-    },
-    container: {
-      padding: {
-        DEFAULT: '15px',
-      },
-    },
-    screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '960px',
-      xl: '1200px',
-    },
-    extend: {
-      colors: {
-        primary: '#0a0a0a',
-        accent: '#B809C3',
-      },
-      backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
-      },
-    },
-  },
-  plugins: [],
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:b89f99b49053faec20f0c27a0f603a84a7614d4b58781564b37aba810373216f
+size 685

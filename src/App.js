@@ -1,26 +1,3 @@
-import React from 'react';
-// components
-import Banner from './components/Banner';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import About from './components/About';
-import Services from './components/Services';
-import Work from './components/Work';
-import Contact from './components/Contact';
-
-const App = () => {
-  return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      <Services />
-      <Work />
-      <Contact />
-      {/*<div className='h-[4000px]'></div>*/}
-    </div>
-  );
-};
-
-export default App;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9d4dc8c4d5ae75f813be93179c6c7706f8fa61bf2dc53956341f5766b7fef86
+size 658
