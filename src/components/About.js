@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 // countUp
 import CountUp from "react-countup";
@@ -8,6 +7,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 // variant
 import { fadeIn } from "../variants";
+import Resume from "C://Users//visha//Desktop//portfolio-starter//src//assets/Resume..pdf";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -41,14 +41,14 @@ const About = () => {
               
               </h3>
               <p className="mb-6">
-              With a foundation in Java and expertise in React, I bring a versatile skill set to the world of web development! 
+              With a foundation in Java and expertise in React, I bring a versatile skill! 
               </p>
             </div>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={13} duration={3} />
+                  <CountUp start={0} end={13} duration={6} />
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -58,7 +58,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={8} duration={3} /> 
+                  <CountUp start={0} end={8} duration={6} /> 
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -68,7 +68,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={4} duration={3} />
+                  <CountUp start={0} end={4} duration={6} />
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -79,9 +79,9 @@ const About = () => {
             </div>
             <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <a href={Resume} download="MyResume.pdf" className="text-gradient btn-link">
+            Download Resume
+            </a>
             </div>
           </motion.div>
         </div>

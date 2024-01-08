@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Markad_Portfolio/static/css/main.a959a86b.css",
-    "main.js": "/Markad_Portfolio/static/js/main.9c54d184.js",
+    "main.css": "/Markad_Portfolio/static/css/main.ab13068a.css",
+    "main.js": "/Markad_Portfolio/static/js/main.cc8bb5b9.js",
     "static/media/about.png": "/Markad_Portfolio/static/media/about.0dcba71eb59792807f12.png",
     "static/media/avtar.png": "/Markad_Portfolio/static/media/avtar.cbef6cc84f37329b4c2f.png",
     "static/media/portfolio-img2.png": "/Markad_Portfolio/static/media/portfolio-img2.0623aa58789e02365ace.png",
@@ -11,11 +11,11 @@
     "static/media/logo.png": "/Markad_Portfolio/static/media/logo.c58ae5b53c7b6b53c36d.png",
     "static/media/services.png": "/Markad_Portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
     "index.html": "/Markad_Portfolio/index.html",
-    "main.a959a86b.css.map": "/Markad_Portfolio/static/css/main.a959a86b.css.map",
-    "main.9c54d184.js.map": "/Markad_Portfolio/static/js/main.9c54d184.js.map"
+    "main.ab13068a.css.map": "/Markad_Portfolio/static/css/main.ab13068a.css.map",
+    "main.cc8bb5b9.js.map": "/Markad_Portfolio/static/js/main.cc8bb5b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a959a86b.css",
-    "static/js/main.9c54d184.js"
+    "static/css/main.ab13068a.css",
+    "static/js/main.cc8bb5b9.js"
   ]
 }

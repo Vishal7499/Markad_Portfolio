@@ -29,7 +29,9 @@ const Work = () => {
               <p className="max-w-sm mb-10">
               I have hands-on experience developing a variety of web applications using React.js and frontend technologies.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <a href="https://github.com/Vishal7499?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <button className="btn btn-sm">View all projects</button>
+    </a>
             </div>
 
             {/* image */}
@@ -47,9 +49,12 @@ const Work = () => {
                 <span className="text-gradient">React Project</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Portfolio Website</span>
-              </div>
+              <a href="https://vishal7499.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">
+  <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+    <span className="text-3xl text-white">Portfolio Website</span>
+  </div>
+</a>
+
             </div>
           </motion.div>
           <motion.div
@@ -74,9 +79,12 @@ const Work = () => {
                 <span className="text-gradient">Web Development</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">FitClub</span>
-              </div>
+              <a href="https://vishal7499.github.io/FitClub/" target="_blank" rel="noopener noreferrer">
+  <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+    <span className="text-3xl text-white">FitClub</span>
+  </div>
+</a>
+
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl ">

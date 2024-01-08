@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from '../assets/avtar.png';
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaInstagram,FaLinkedinIn } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-
+import Resume from "C://Users//visha//Desktop//portfolio-starter//src//assets/Resume..pdf";
+import { Link } from 'react-scroll'
 const Banner = () => {
   return (
     <section className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
@@ -47,7 +48,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once:false,amount:0.7}}
             className="mb-8 max-w-lg max-autolg:mx-0">
-            A seasoned Fullstack Developer with a high level of experience in Java, web development, and databases. 
+            Aspiring Fullstack Developer with a keen interest in Java, web development, and databases, eager to build a strong foundation and gain practical experience in the field. 
             </motion.p>
             <motion.div 
             variants={fadeIn('up',0.6)} 
@@ -55,10 +56,15 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once:false,amount:0.7}}
             className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+            <Link to="contact" spy={true} smooth={true}>
               <button className="btn btn-lg">Contact me</button>
-              <a href="#" className='text-gradient btn-link'>
-                My Portfolio
-              </a>
+              </Link>
+              <a href={Resume} download="MyResume.pdf" className="text-gradient btn-link">
+            Download Resume
+            </a>
+
+
+
             </motion.div>
             <motion.div 
             variants={fadeIn('up',0.7)} 
@@ -66,14 +72,14 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once:false,amount:0.7}}
             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
-                <FaYoutube />
+              <a href="https://www.linkedin.com/in/vishal-markad-a1802817b/">
+                <FaLinkedinIn />
               </a>
-              <a href="#">
+              <a href="https://github.com/Vishal7499">
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaDribbble />
+              <a href="https://www.instagram.com/vishal_markad_/">
+                <FaInstagram />
               </a>
             </motion.div>
           </div>
